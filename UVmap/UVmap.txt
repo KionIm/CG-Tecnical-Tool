@@ -1,0 +1,8 @@
+{
+	string $selects[] = `ls -sl -tr`;
+	
+	for($sel in $selects){
+		polyCopyUV -uvSetNameInput "UVmap_0" -uvSetName "map1"  $sel;
+		delete -ch `polyListComponentConversion`;
+	}
+};

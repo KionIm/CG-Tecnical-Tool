@@ -2,7 +2,7 @@ import maya.cmds as cmds
 import maya.OpenMaya
 import maya.OpenMayaMPx
 
-stockPath = "C:/Users/kion1/Documents/Maya/MyProjects/sample/data.dat"
+stockPath = #please write data directory
 f = open(stockPath)
 
 IM = 64

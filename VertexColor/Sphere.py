@@ -2,7 +2,7 @@ import maya.cmds as cmds
 import maya.OpenMaya
 import maya.OpenMayaMPx
 
-stockPath = #please write data directory
+stockPath = #please write your data directory
 f = open(stockPath)
 
 IM = 64
